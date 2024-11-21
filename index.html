@@ -34,6 +34,12 @@
         font-family: sans-serif;
         color: #171a1b;
       }
+      .two-columns {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 0;
+      }
     </style>
   </head>
   <body>
@@ -62,23 +68,23 @@
                   <table class="column">
                     <tr>
                       <td>
-                        <a href="#">
+                        <a style="text-decoration: none" href="#">
                           <img
-                            width="40px"
+                            width="35px"
                             src="/image/facebook-logo.png"
                             alt=""
                           />
                         </a>
-                        <a href="#">
+                        <a style="text-decoration: none" href="#">
                           <img
-                            width="40px"
+                            width="35px"
                             src="/image/instagram-logo.png"
                             alt=""
                           />
                         </a>
-                        <a href="#">
+                        <a style="text-decoration: none" href="#">
                           <img
-                            width="40px"
+                            width="35px"
                             src="/image/linkedin-logo.png"
                             alt=""
                           />
@@ -93,7 +99,53 @@
         </tr>
 
         <!-- LOGO SECTION -->
+        <tr>
+          <td
+            style="
+              background-image: url('/image/background.jpg');
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+              width: 100%;
+              height: 300px;
+            "
+          >
+            <table
+              width="100%"
+              height="100%"
+              border="0"
+              cellspacing="0"
+              cellpadding="0"
+              style="background-color: #a1045a27"
+            >
+              <tr>
+                <td
+                  align="center"
+                  valign="middle"
+                  style="color: white; padding: 20px"
+                >
+                  <h3>Click to Food</h3>
+                  <a
+                    style="
+                      background-color: #a1045a;
+                      color: white;
+                      text-decoration: none;
+                      padding: 10px 20px;
+                    "
+                    href="#"
+                    >Something</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
 
+        <tr style="background-color: #a1045a; color: white">
+          <td>
+            <p style="margin: 30px;" align="center">Hello</p>
+          </td>
+        </tr>
         <!-- BANNER IMAGE -->
 
         <!-- THREE COLUMN SECTION -->
