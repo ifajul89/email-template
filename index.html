@@ -52,23 +52,25 @@
             <table width="100%" cellpadding="0" cellspacing="0">
               <tr>
                 <td align="left" style="padding: 10px 15px">
-                  <a href="#">
+                  <span onclick="openCTF()" style="cursor: pointer">
                     <img
                       src="https://clicktofood.com/assets/email/logo.png"
                       width="85"
                       alt="Logo"
                       style="display: block"
                     />
-                  </a>
+                  </span>
                 </td>
                 <td align="right" style="padding: 10px; width: 110px">
                   <p
+                    onclick="openCTF()"
                     style="
                       font-weight: 800;
                       color: rgb(52, 52, 52);
                       text-align: center;
                       font-size: 16px;
                       font-family: Arial, sans-serif;
+                      cursor: pointer;
                     "
                   >
                     Food At Your<br />
@@ -174,7 +176,8 @@
             <table style="margin: 25px 0px 35px 0px">
               <tr>
                 <td>
-                  <a
+                  <span
+                    onclick="openOrderNow()"
                     style="
                       text-decoration: none;
                       background-color: #a1045a;
@@ -182,9 +185,10 @@
                       color: white;
                       font-size: 20px;
                       border-radius: 10px;
+                      cursor: pointer;
                     "
                     href="#"
-                    >Order Now</a
+                    >Order Now</span
                   >
                 </td>
               </tr>
@@ -228,7 +232,10 @@
                     <tr>
                       <!-- Google Play Button -->
                       <td align="center">
-                        <a href="#">
+                        <span
+                          onclick="openDownloadFromPlayStore()"
+                          style="cursor: pointer"
+                        >
                           <img
                             src="https://clicktofood.com/assets/email/playstore.png"
                             alt="Download from Google Play"
@@ -239,12 +246,15 @@
                               display: inline-block;
                             "
                           />
-                        </a>
+                        </span>
                       </td>
 
                       <!-- App Store Button -->
                       <td align="center">
-                        <a href="#">
+                        <span
+                          onclick="openDownloadFromAppStore()"
+                          style="cursor: pointer"
+                        >
                           <img
                             src="https://clicktofood.com/assets/email/app-store.png"
                             alt="Download from App Store"
@@ -254,7 +264,7 @@
                               display: inline-block;
                             "
                           />
-                        </a>
+                        </span>
                       </td>
                     </tr>
                   </table>
@@ -283,22 +293,37 @@
             >
               <tr>
                 <td align="center" style="color: white; font-size: 13px">
-                  <a
-                    href="https://clicktofood.com/about-us"
-                    style="color: white; text-decoration: none; margin: 0 1.7vw"
-                    >About us</a
+                  <span
+                    onclick="openAboutUs()"
+                    style="
+                      color: white;
+                      text-decoration: none;
+                      margin: 0 1.7vw;
+                      cursor: pointer;
+                    "
+                    >About us</span
                   >
-                  <a
-                    href="https://restaurant-signup.clicktofood.ae/"
-                    style="color: white; text-decoration: none; margin: 0 1.7vw"
-                    >Restaurant SignUp</a
+                  <span
+                    onclick="openRestaurantSignUp()"
+                    style="
+                      color: white;
+                      text-decoration: none;
+                      margin: 0 1.7vw;
+                      cursor: pointer;
+                    "
+                    >Restaurant SignUp</span
                   >
-                  <a
-                    href="https://rider-signup.clicktofood.ae/"
-                    style="color: white; text-decoration: none; margin: 0 1.7vw"
+                  <span
+                    onclick="openRiderSignUp()"
+                    style="
+                      color: white;
+                      text-decoration: none;
+                      margin: 0 1.7vw;
+                      cursor: pointer;
+                    "
                   >
                     Rider SignUp
-                  </a>
+                  </span>
                 </td>
               </tr>
             </table>
@@ -312,30 +337,30 @@
             >
               <tr>
                 <td align="center">
-                  <a href="https://web.facebook.com/clicktofooduae"
+                  <span onclick="openFacebook()"
                     ><img
                       src="https://clicktofood.com/assets/email/facebook.png"
                       alt="Facebook"
-                      style="width: 30px; margin: 0 10px"
-                  /></a>
-                  <a href="https://x.com/clicktofood"
+                      style="width: 30px; margin: 0 10px; cursor: pointer"
+                  /></span>
+                  <span onclick="openTwitter()"
                     ><img
                       src="https://clicktofood.com/assets/email/twitter.png"
                       alt="Twitter"
-                      style="width: 30px; margin: 0 10px"
-                  /></a>
-                  <a href="https://www.instagram.com/clicktofood"
+                      style="width: 30px; margin: 0 10px; cursor: pointer"
+                  /></span>
+                  <span onclick="openInstagram()"
                     ><img
                       src="https://clicktofood.com/assets/email/instagram.png"
                       alt="Instagram"
-                      style="width: 30px; margin: 0 10px"
-                  /></a>
-                  <a href="https://www.youtube.com/@ClickToFood"
+                      style="width: 30px; margin: 0 10px; cursor: pointer"
+                  /></span>
+                  <span onclick="openYoutube()"
                     ><img
                       src="https://clicktofood.com/assets/email/youtube.png"
                       alt="YouTube"
-                      style="width: 30px; margin: 0 10px"
-                  /></a>
+                      style="width: 30px; margin: 0 10px; cursor: pointer"
+                  /></span>
                 </td>
               </tr>
             </table>
@@ -365,25 +390,28 @@
             >
               <tr>
                 <td align="center" style="color: white; font-size: 12px">
-                  <a
-                    href="https://clicktofood.com/privacy-policy"
+                  <span
+                    onclick="openPrivacyPolicy()"
                     style="
                       color: white;
                       text-decoration: underline;
                       margin: 0 10px;
+                      cursor: pointer;
                     "
-                    >Privacy policy</a
+                    >Privacy policy</span
                   >
                   |
-                  <a
-                    href=""
+                  <span
+                    onclick="openTermsAndCondition()"
                     style="
                       color: white;
                       text-decoration: underline;
                       margin: 0 10px;
+                      cursor: pointer;
                     "
-                    >Terms and Condition</a
                   >
+                    Terms and Condition
+                  </span>
                 </td>
               </tr>
             </table>
@@ -397,11 +425,13 @@
             >
               <tr>
                 <td align="center">
-                  <img
-                    src="https://clicktofood.com/assets/email/click-to-food-logo-white.png"
-                    alt="Click to Food Logo"
-                    style="width: 80px"
-                  />
+                  <span onclick="openCTF()" style="cursor: pointer">
+                    <img
+                      src="https://clicktofood.com/assets/email/click-to-food-logo-white.png"
+                      alt="Click to Food Logo"
+                      style="width: 80px"
+                    />
+                  </span>
                 </td>
               </tr>
             </table>
@@ -410,4 +440,46 @@
       </table>
     </center>
   </body>
+
+  <script>
+    function openFacebook() {
+      window.open("https://web.facebook.com/clicktofooduae", "_blank");
+    }
+    function openTwitter() {
+      window.open("https://x.com/clicktofood", "_blank");
+    }
+    function openInstagram() {
+      window.open("https://www.instagram.com/clicktofood", "_blank");
+    }
+    function openYoutube() {
+      window.open("https://www.youtube.com/@ClickToFood", "_blank");
+    }
+    function openAboutUs() {
+      window.open("https://clicktofood.com/about-us", "_blank");
+    }
+    function openRestaurantSignUp() {
+      window.open("https://restaurant-signup.clicktofood.ae/", "_blank");
+    }
+    function openRiderSignUp() {
+      window.open("https://rider-signup.clicktofood.ae/", "_blank");
+    }
+    function openDownloadFromAppStore() {
+      window.open("https://clicktofood.com", "_blank");
+    }
+    function openDownloadFromPlayStore() {
+      window.open("https://clicktofood.com", "_blank");
+    }
+    function openOrderNow() {
+      window.open("https://clicktofood.com", "_blank");
+    }
+    function openCTF() {
+      window.open("https://clicktofood.com", "_blank");
+    }
+    function openPrivacyPolicy() {
+      window.open("https://clicktofood.com/privacy-policy", "_blank");
+    }
+    function openTermsAndCondition() {
+      window.open("https://clicktofood.com/terms-and-condition", "_blank");
+    }
+  </script>
 </html>
